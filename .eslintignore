@@ -1,0 +1,11 @@
+build/*.js
+config/*.js
+src/plugins/*.js
+src/components/common/calendar.vue
+src/plugins/calender.js
+src/components/vue-slider/
+src/components/calendar/
+src/views/examples/test-calendars/components/test-calendar2/
+src/views/appointment-calendar/components/
+src/views/punch-record/components/datepicker-2.vue
+src/views/member-punch/components/datepicker-2.vue

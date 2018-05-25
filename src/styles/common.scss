@@ -1,0 +1,95 @@
+html {
+  font-size: 62.5%;
+}
+html, body {
+  //height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #55575b;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+  overflow: auto;
+}
+body, td, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+ul li, ol li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: top;
+}
+input, select, textarea {
+  vertical-align: middle;
+  outline: none;
+  box-sizing: border-box;
+  border: 0;
+}
+input {
+  padding: 0 10px;
+}
+a {
+  text-decoration: none;
+  color: #55575b;
+}
+a:hover {
+  text-decoration: none;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.mar-cent {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.fl, .a-left {
+  float: left;
+}
+.fr, .a-right {
+  float: right;
+}
+.hr20 {
+  height: 20px;
+  background-color: #f2f2f2;
+}
+.h2-title {
+  color: #7c7c7c;
+  line-height: 1;
+  padding: 28px 0 30px 25px;
+}
+#app {
+  height: 100%;
+  overflow: auto;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+// 在公共部分隐藏 在线客服
+#YSF-BTN-HOLDER {
+  display: none;
+}

@@ -1,0 +1,128 @@
+@import './config.scss';
+
+// 背景色间距
+.bgc-gray {
+  background-color: #f0f0f0;
+}
+
+// 列表框，统一样式
+.label-box .label {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &>span {
+    float: left;
+    display: inline-block;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #55575b;
+  }
+  .next-link {
+    float: right;
+    width: 10px;
+    height: 16px;
+    margin: 15px 0 0;
+  }
+  // input 主题样式
+  input {
+    float: left;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #55575b;
+  }
+  ::-moz-placeholder {
+    color: #b5bec7;
+  }
+  ::-webkit-input-placeholder {
+    color:#b5bec7;
+  }
+  ::-webkit-select-placeholder {
+    color:#b5bec7;
+  }
+  :-ms-input-placeholder {
+    color:#b5bec7;
+  }
+}
+
+// 文字压住横线的效果
+.third-party-login {
+  position: relative;
+  width: 37%;
+  height: 20px;
+  margin: 0 auto;
+
+  span {
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    width: 61.3%;
+    margin-left: -31%;
+    color: $m-black;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .hr {
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #B4BDC6;
+  }
+}
+
+// 遮罩层
+.mask {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  background: #000;
+  z-index: 2;
+}
+
+// input 主题样式
+input {
+  color: #55575b;
+}
+::-moz-placeholder {
+  color: #b5bec7;
+}
+::-webkit-input-placeholder {
+  color:#b5bec7;
+}
+:-ms-input-placeholder {
+  color:#b5bec7;
+}
+
+
+// 一像素边框
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5) {
+  .border-1px {
+    &:after {
+      -webkit-transform: scaleY(0.7);
+      transform: scaleY(0.7);
+    }
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+  .border-1px {
+    &:after {
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+  }
+}
+

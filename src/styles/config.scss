@@ -1,0 +1,27 @@
+// 颜色变量
+$red:               #ef5153;
+$black:             #b6bfc8;
+$yellow:            #ffd731;
+$white:             #fff;
+$pink:              #fe4f9f;
+$c-orange:          #ffba17;
+$c-gray:            #B4BDC6;
+$c-blue:            #00a4ff;
+
+// 微信端 主题样式
+$m-black:           #55575B;
+
+.c-orange {
+  color: $c-orange;
+}
+.c-gray {
+  color: $c-gray;
+}
+.c-blue {
+  color: $c-blue;
+}
+// 宽高
+@mixin wh($width, $height){
+  width: $width;
+  height: $height;
+}
